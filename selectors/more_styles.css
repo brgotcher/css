@@ -31,11 +31,11 @@ span {
 }
 
 .post a {
-    color: #457b9d
+    color: #457b9d;
 }
 
 footer a {
-    color: #e63946
+    color: #e63946;
 }
 
 h2 + button {
@@ -43,5 +43,13 @@ h2 + button {
 }
 
 footer > a {
-    color: #a8dadc
+    color: #a8dadc;
+}
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+a[href*="google"] {
+    color: magenta;
 }
